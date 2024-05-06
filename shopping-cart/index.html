@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  </head>
+  <body>
+
+    <label>
+      <!--creation of the toggle button-->
+  <input type="checkbox">
+  <div class="toggle">
+    <span class="common top_line"></span>
+    <span class="common middle_line"></span>
+    <span class="common bottom_line"></span>
+  </div> 
+      <div class="sidebar">
+      <p>Menu</p>
+  <ul>
+     <li style="--i:1"><a href="/home\index.html"><i class="fa fa-home"></i>Home</a></li>
+     <li style="--i:3"><a href="/home\index.html#projects"><i class="fab fa-gripfire"></i>Projects</a></li> 
+
+     <li style="--i:2"><a href="/home\index.html#about"><i class="fa fa-user"></i>About</a></li> 
+     <li style="--i:4"><a href="/home\index.html#contact" ><i class="fa fa-phone"></i>Contact</a></li> 
+  </ul>
+  </div>
+    </label>
+
+
+    <header>
+      <h1 class="title">Desserts Page</h1>
+    </header>
+    <main>
+      <button id="cart-btn" type="button" class="btn">
+        <span id="show-hide-cart">Show</span> Cart
+      </button>
+      <div id="cart-container">
+        <button class="btn" id="clear-cart-btn">Clear Cart</button>
+        <div id="products-container"></div>
+        <p>Total number of items: <span id="total-items">0</span></p>
+        <p>Subtotal: <span id="subtotal">$0</span></p>
+        <p>Taxes: <span id="taxes">$0</span></p>
+        <p>Total: <span id="total">$0</span></p>
+      </div>
+      <div id="dessert-card-container"></div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
