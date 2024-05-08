@@ -79,16 +79,16 @@ window.onload =()=>{
        },500);
        const p22 = setTimeout(()=>{
        p2.style.display = "block"
-       },800);
+       },1050);
        const p33 = setTimeout(()=>{
         p3.style.display = "block"
-       },1100);
+       },1500);
        const p44 = setTimeout(()=>{
         p4.style.display = "block"
-       },1300);
+       },2000);
        const p55 = setTimeout(()=>{
       p5.style.display = "";
-       },1500);
+       },2500);
        const img = setTimeout(()=>{
         img1.style.display = "inline"
        }, 500)
