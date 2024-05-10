@@ -1,3 +1,4 @@
+
 const img1 = document.getElementById('img1');
 const about = document.getElementById('about')
 const h111 = document.getElementById('h111')
@@ -109,31 +110,29 @@ window.onload =()=>{
        const p44 = setTimeout(()=>{
         p4.style.visibility = "unset" 
         p4.style.transform = "scale(0.7)";
-       },3000);
+       },3500);
        const p41 = setTimeout(()=>{
         p4.style.visibility = "unset" 
         p4.style.transform = 'scale(1)';
-       },3100);
+       },3600);
   
 
        const p55 = setTimeout(()=>{
         p5.style.visibility = "unset" 
         p5.style.transform = "scale(0.7)";
-       },3500);
+       },4100);
        const p51 = setTimeout(()=>{
         p5.style.visibility = "unset" 
         p5.style.transform = 'scale(1)';
-       },3600);
+       },4200);
 
 
        const img = setTimeout(()=>{
         img1.style.visibility = "unset" 
         img1.style.transform = "scale(0.8)"; 
-       }, 1500)
+       }, 3000)
        const img2 = setTimeout(()=>{
         img1.style.visibility = "unset" 
         img1.style.transform = 'scale(1)';
-       },1600);
+       },3100);
     }
-
-
