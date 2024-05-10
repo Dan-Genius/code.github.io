@@ -1,4 +1,3 @@
-
 const img1 = document.getElementById('img1');
 const about = document.getElementById('about')
 const h111 = document.getElementById('h111')
